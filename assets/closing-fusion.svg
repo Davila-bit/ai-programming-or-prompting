@@ -1,0 +1,38 @@
+<svg width="540" height="280" viewBox="0 0 540 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tealPath" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#53F0DC" />
+      <stop offset="1" stop-color="#11777B" />
+    </linearGradient>
+    <linearGradient id="coralPath" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FF7A73" />
+      <stop offset="1" stop-color="#7D3D3D" />
+    </linearGradient>
+  </defs>
+
+  <rect width="540" height="280" rx="36" fill="#0A1A23" fill-opacity="0.45" stroke="#A4B6BF" stroke-opacity="0.14" />
+
+  <g transform="translate(48 44)">
+    <rect x="0" y="54" width="182" height="128" rx="24" fill="#0F2630" stroke="#53F0DC" stroke-opacity="0.24" />
+    <rect x="18" y="78" width="32" height="22" rx="7" fill="#53F0DC" fill-opacity="0.2" />
+    <rect x="58" y="78" width="32" height="22" rx="7" fill="#53F0DC" fill-opacity="0.2" />
+    <rect x="98" y="78" width="32" height="22" rx="7" fill="#53F0DC" fill-opacity="0.2" />
+    <rect x="138" y="78" width="26" height="22" rx="7" fill="#53F0DC" fill-opacity="0.2" />
+    <rect x="18" y="112" width="48" height="22" rx="7" fill="#53F0DC" fill-opacity="0.2" />
+    <rect x="74" y="112" width="48" height="22" rx="7" fill="#53F0DC" fill-opacity="0.2" />
+    <rect x="130" y="112" width="34" height="22" rx="7" fill="#53F0DC" fill-opacity="0.2" />
+    <rect x="18" y="146" width="66" height="22" rx="7" fill="#53F0DC" fill-opacity="0.2" />
+    <rect x="92" y="146" width="72" height="22" rx="7" fill="#53F0DC" fill-opacity="0.2" />
+  </g>
+
+  <g transform="translate(314 38)">
+    <path d="M0 38C0 17.0132 17.0132 0 38 0H132C152.987 0 170 17.0132 170 38V86C170 106.987 152.987 124 132 124H84L54 158V124H38C17.0132 124 0 106.987 0 86V38Z" fill="#102833" stroke="#FF7A73" stroke-opacity="0.26"/>
+    <rect x="28" y="34" width="88" height="14" rx="7" fill="#FF7A73" fill-opacity="0.82" />
+    <rect x="28" y="62" width="104" height="12" rx="6" fill="#F2F5EF" fill-opacity="0.18" />
+    <rect x="28" y="86" width="76" height="12" rx="6" fill="#F2F5EF" fill-opacity="0.18" />
+  </g>
+
+  <path d="M208 146C246 146 270 146 302 146" stroke="url(#tealPath)" stroke-width="4" stroke-linecap="round" stroke-dasharray="5 12" />
+  <path d="M238 176C276 176 300 176 330 176" stroke="url(#coralPath)" stroke-width="4" stroke-linecap="round" />
+  <path d="M266 160C304 160 350 160 412 214" stroke="#53F0DC" stroke-opacity="0.7" stroke-width="5" stroke-linecap="round" />
+</svg>

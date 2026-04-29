@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Are We Still Programming, or Just Prompting the Machine?</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="viewport">
+      <div class="stage" id="stage" aria-live="polite">
+        <section class="slide slide-1 active" data-title="Title Slide" aria-label="Slide 1">
+          <div class="slide-texture"></div>
+          <div class="slide-glow slide-glow-a"></div>
+          <div class="slide-glow slide-glow-b"></div>
+          <img class="scene scene-hero" src="assets/hero-collage.svg" alt="Abstract collage of a code editor, prompt interface, and classroom grid" />
+          <div class="slide-inner hero-inner center-layout">
+            <div class="hero-copy">
+              <h1>Are We Still Programming, or Just Prompting the Machine?</h1>
+              <p class="hero-subtitle">Coding, careers, and what students should learn now</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="slide slide-2" data-title="Why This Question Feels Urgent" aria-label="Slide 2">
+          <div class="slide-texture"></div>
+          <img class="scene scene-question" src="assets/question-scene.svg" alt="Abstract classroom scene with a laptop silhouette and notebook lines" />
+          <div class="slide-inner quote-layout">
+            <p class="slide-kicker">Why This Question Feels Urgent</p>
+            <div class="connector connector-quote"></div>
+            <div class="quote-block">
+              <p class="quote-line">If the machine can write code...</p>
+              <p class="quote-line accent-line">...what should students learn?</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="slide slide-3" data-title="The Tools Are Already Mainstream" aria-label="Slide 3">
+          <div class="slide-texture"></div>
+          <div class="slide-inner analytics-layout">
+            <p class="slide-kicker">The Tools Are Already Mainstream</p>
+            <div class="stat-grid">
+              <article class="stat-card card-glow">
+                <div class="stat-number">84%</div>
+                <p class="stat-label">use or plan to use AI tools</p>
+              </article>
+              <article class="stat-card card-glow card-outline">
+                <div class="stat-number">50.6%</div>
+                <p class="stat-label">of professional developers use them daily</p>
+              </article>
+              <article class="stat-card split-card">
+                <div class="trust-block trust-block-warn">
+                  <div class="split-number">46%</div>
+                  <p class="split-label">distrust accuracy</p>
+                </div>
+                <div class="trust-divider"></div>
+                <div class="trust-block trust-block-trust">
+                  <div class="split-number">33%</div>
+                  <p class="split-label">trust it</p>
+                </div>
+              </article>
+            </div>
+            <div class="mini-chart adoption-chart" aria-hidden="true">
+              <div class="chart-bar" style="--height: 84%">
+                <span class="bar-label">Use/plan</span>
+                <span class="bar-value">84</span>
+              </div>
+              <div class="chart-bar teal" style="--height: 50.6%">
+                <span class="bar-label">Daily</span>
+                <span class="bar-value">50.6</span>
+              </div>
+              <div class="chart-bar coral" style="--height: 46%">
+                <span class="bar-label">Distrust</span>
+                <span class="bar-value">46</span>
+              </div>
+              <div class="chart-bar soft" style="--height: 33%">
+                <span class="bar-label">Trust</span>
+                <span class="bar-value">33</span>
+              </div>
+            </div>
+            <p class="slide-source">Source: Stack Overflow Developer Survey 2025</p>
+          </div>
+        </section>
+
+        <section class="slide slide-4" data-title="The Workflow Has Moved Up a Level" aria-label="Slide 4">
+          <div class="slide-texture"></div>
+          <div class="slide-inner pipeline-layout">
+            <p class="slide-kicker">The Workflow Has Moved Up a Level</p>
+            <div class="pipeline-line"></div>
+            <div class="pipeline-steps">
+              <div class="pipeline-step active-step">
+                <span class="step-index">01</span>
+                <span class="step-label">Prompt</span>
+              </div>
+              <div class="pipeline-step">
+                <span class="step-index">02</span>
+                <span class="step-label">Draft</span>
+              </div>
+              <div class="pipeline-step">
+                <span class="step-index">03</span>
+                <span class="step-label">Review</span>
+              </div>
+              <div class="pipeline-step">
+                <span class="step-index">04</span>
+                <span class="step-label">Test</span>
+              </div>
+              <div class="pipeline-step final-step">
+                <span class="step-index">05</span>
+                <span class="step-label">Own</span>
+              </div>
+            </div>
+            <div class="pipeline-connector-grid" aria-hidden="true">
+              <span></span><span></span><span></span><span></span>
+            </div>
+          </div>
+        </section>
+
+        <section class="slide slide-5" data-title="Vibe Coding Is Real, but Limited" aria-label="Slide 5">
+          <div class="slide-texture"></div>
+          <div class="slide-inner comparison-layout">
+            <p class="slide-kicker">Vibe Coding Is Real, but Limited</p>
+            <div class="compare-grid">
+              <article class="compare-card prototype-card">
+                <div class="compare-visual prototype-visual" aria-hidden="true">
+                  <span class="window-stack w1"></span>
+                  <span class="window-stack w2"></span>
+                  <span class="window-stack w3"></span>
+                </div>
+                <h2>Great for prototypes</h2>
+              </article>
+              <article class="compare-card reliability-card">
+                <div class="compare-visual reliability-visual" aria-hidden="true">
+                  <span class="system-box s1"></span>
+                  <span class="system-box s2"></span>
+                  <span class="system-box s3"></span>
+                  <span class="warning-mark"></span>
+                </div>
+                <h2>Weak on reliability</h2>
+              </article>
+            </div>
+            <div class="responsibility-band">
+              <span>Human responsibility does not disappear</span>
+            </div>
+            <p class="slide-source">Sources: final report synthesis of Harvard Gazette and Sarkar &amp; Drosos</p>
+          </div>
+        </section>
+
+        <section class="slide slide-6" data-title="The Catch: Almost Right Is Not Right" aria-label="Slide 6">
+          <div class="slide-texture"></div>
+          <div class="slide-inner evidence-layout">
+            <p class="slide-kicker">The Catch: Almost Right Is Not Right</p>
+            <div class="evidence-main">
+              <div class="friction-panel">
+                <div class="friction-row">
+                  <div class="friction-copy">
+                    <span class="friction-number">66%</span>
+                    <span class="friction-label">say AI answers are almost right, but not quite</span>
+                  </div>
+                  <div class="friction-track" aria-hidden="true"><span class="friction-fill" style="--value: 66%"></span></div>
+                </div>
+                <div class="friction-row">
+                  <div class="friction-copy">
+                    <span class="friction-number">45.2%</span>
+                    <span class="friction-label">say debugging AI code takes more time</span>
+                  </div>
+                  <div class="friction-track" aria-hidden="true"><span class="friction-fill teal-fill" style="--value: 45.2%"></span></div>
+                </div>
+              </div>
+              <aside class="metr-callout">
+                <p class="callout-tag">METR</p>
+                <p class="callout-copy">developers were 19% slower on mature repos</p>
+              </aside>
+            </div>
+            <p class="slide-source">Sources: Stack Overflow Developer Survey 2025; METR, Early 2025 AI experienced open-source developers study</p>
+          </div>
+        </section>
+
+        <section class="slide slide-7" data-title="The Job Market Is Shifting, Not Vanishing" aria-label="Slide 7">
+          <div class="slide-texture"></div>
+          <div class="slide-inner labor-layout">
+            <p class="slide-kicker">The Job Market Is Shifting, Not Vanishing</p>
+            <div class="labor-panels">
+              <article class="labor-panel neutral-panel">
+                <span class="panel-source">Yale</span>
+                <p class="panel-statement">no clear economy-wide disruption yet</p>
+              </article>
+              <article class="labor-panel caution-panel">
+                <span class="panel-source">Stanford</span>
+                <div class="panel-metric">-16%</div>
+                <p class="panel-statement">employment for ages 22-25 in the most exposed jobs</p>
+              </article>
+              <article class="labor-panel positive-panel">
+                <span class="panel-source">BLS</span>
+                <div class="panel-metric">+15%</div>
+                <p class="panel-statement">projected growth, 129,200 openings per year</p>
+              </article>
+            </div>
+            <p class="slide-source">Sources: The Budget Lab at Yale; Stanford Digital Economy Lab; U.S. Bureau of Labor Statistics</p>
+          </div>
+        </section>
+
+        <section class="slide slide-8" data-title="What Still Requires Real Programming" aria-label="Slide 8">
+          <div class="slide-texture"></div>
+          <div class="slide-inner hub-layout">
+            <p class="slide-kicker">What Still Requires Real Programming</p>
+            <div class="hub-diagram">
+              <div class="hub-center">Human judgment</div>
+              <div class="hub-node architecture">Architecture</div>
+              <div class="hub-node debugging">Debugging</div>
+              <div class="hub-node security">Security</div>
+              <div class="hub-node testing">Testing</div>
+              <div class="hub-node maintenance">Maintenance</div>
+              <div class="hub-node accountability">Accountability</div>
+              <svg class="hub-lines" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden="true">
+                <line x1="50" y1="50" x2="22" y2="18"></line>
+                <line x1="50" y1="50" x2="50" y2="12"></line>
+                <line x1="50" y1="50" x2="78" y2="18"></line>
+                <line x1="50" y1="50" x2="18" y2="64"></line>
+                <line x1="50" y1="50" x2="82" y2="64"></line>
+                <line x1="50" y1="50" x2="50" y2="88"></line>
+              </svg>
+            </div>
+          </div>
+        </section>
+
+        <section class="slide slide-9" data-title="A Student Playbook" aria-label="Slide 9">
+          <div class="slide-texture"></div>
+          <div class="slide-inner roadmap-layout">
+            <p class="slide-kicker">A Student Playbook</p>
+            <div class="roadmap-line" aria-hidden="true"></div>
+            <div class="roadmap-steps">
+              <article class="road-step step-one">
+                <span class="road-icon icon-book"></span>
+                <p>Learn fundamentals deeply</p>
+              </article>
+              <article class="road-step step-two">
+                <span class="road-icon icon-prompt"></span>
+                <p>Prompt like a spec writer</p>
+              </article>
+              <article class="road-step step-three">
+                <span class="road-icon icon-project"></span>
+                <p>Build projects you can explain</p>
+              </article>
+              <article class="road-step step-four">
+                <span class="road-icon icon-debug"></span>
+                <p>Practice testing and debugging</p>
+              </article>
+            </div>
+            <p class="slide-source">Source: final report, student preparation strategy</p>
+          </div>
+        </section>
+
+        <section class="slide slide-10" data-title="Final Takeaway" aria-label="Slide 10">
+          <div class="slide-texture"></div>
+          <div class="slide-glow slide-glow-c"></div>
+          <div class="slide-inner closing-layout">
+            <p class="slide-kicker">Final Takeaway</p>
+            <img class="closing-mark" src="assets/closing-fusion.svg" alt="Merged keyboard and speech bubble graphic converging into a single path" />
+            <div class="closing-copy">
+              <p class="closing-line">The future is not coding or prompting alone.</p>
+              <p class="closing-line accent-line">It is knowing how to use both intelligently.</p>
+            </div>
+          </div>
+        </section>
+
+        <div class="deck-ui" aria-hidden="true">
+          <div class="progress-shell">
+            <div class="progress-topline">
+              <span id="progressCounter">01 / 10</span>
+              <span id="progressTitle">Title Slide</span>
+            </div>
+            <div class="progress-bar"><span id="progressFill"></span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
