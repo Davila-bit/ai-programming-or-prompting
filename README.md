@@ -10,16 +10,16 @@ An interactive slide deck for a research presentation on AI-assisted coding, dev
 
 | File | Description |
 |---|---|
-| `index.html` | Slide deck — open this in a browser |
-| `styles.css` | Visual theme |
-| `app.js` | Navigation and scaling |
-| `assets/` | SVG visuals |
+| `docs/index.html` | Slide deck — open this in a browser |
+| `docs/styles.css` | Visual theme |
+| `docs/app.js` | Navigation and scaling |
+| `docs/assets/` | SVG visuals |
 | `ResearchPaper.pdf` | Accompanying IEEE paper |
 | `UserManual.md` | Setup and hosting guide |
 
 ## Run Locally
 
-Open `index.html` in any modern browser. No build step or server required.
+Open `docs/index.html` in any modern browser. No build step or server required.
 
 ## Navigation
 
