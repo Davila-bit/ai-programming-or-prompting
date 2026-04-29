@@ -15,7 +15,7 @@ An interactive slide deck for a research presentation on AI-assisted coding, dev
 | `app.js` | Navigation and scaling |
 | `assets/` | SVG visuals |
 | `ResearchPaper.pdf` | Accompanying IEEE paper |
-| `USER_MANUAL.md` | Setup and hosting guide |
+| `UserManual.md` | Setup and hosting guide |
 
 ## Run Locally
 
